@@ -1,15 +1,17 @@
 par = 0
 impar = 0
+todoimpar = 0
+todopar = 0
 
 for i in range(0,10,1):
-    num = int(input('digite um numero'))
+    num = int(input('digite um numero\n'))
     if num % 2:
         par = par + 1
-        todo = todo + num
+        todopar = todopar + num
     else:
         impar = impar + 1
-        todoim = todoin + num
+        todoimpar = todoimpar + num
 
-media = todoin / impar
-print('a  quatidade ded numero pares %d, e de impares %i', par,impar)
-print('e a quantidade de numeros pares %d, e a media de numeros impares %i')
+media = todoimpar / impar
+print('a quantidade de par : %d, a quantidad de impares %d' %(par, impar))
+print('a soam dos numeros pares é : %d,  e a media dos numeros impares são : %d' %(todopar, todoimpar))
