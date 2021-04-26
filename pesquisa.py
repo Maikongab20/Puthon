@@ -64,9 +64,16 @@ while pesq != 0 :
         naoM = naoM + 1
 
     pesso = pesso + 1
-
     percent = nao/100
 
-
-
-
+print('A quantidadde de pessoas que foram intrevistadas foram : %d' %(pesso))
+print('\n')
+print('quantidades de sim de cada pergunta foi : %d' %(sim))
+print('\n')
+print(', e a quantidade de pessoas que disseram não foi : %d' %(nao))
+print('\n')
+print('O percentual de pessoas que responderam Não : %d \n')
+print('\n')
+print('A quantidadde de mulheres que disseram sim : %d' %(simF))
+print('\n')
+print('A quantidadde de homens que respoderam não : %d' %(naoM))
